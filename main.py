@@ -60,3 +60,8 @@ app.add_url_rule('/bill_form', view_func=BillFormPage.as_view('bill_gorm_page'))
 app.add_url_rule('/results', view_func=ResultsPage.as_view('results_page'))
 
 app.run(debug=True)
+
+"""
+Deployment on web was done by pythonanywhere.com platform
+http://shd00.pythonanywhere.com/
+"""
